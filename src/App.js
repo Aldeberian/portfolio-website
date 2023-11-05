@@ -1,11 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Navbar from "./components/Navbar";
+import ProjectsPage from "./pages/ProjectsPage";
+import HomePage from "./pages/HomePage";
+
 function App() {
   return (
-      <h1 className="bg-csbg text-cstxt text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Router>
+          <div className="w-screen h-screen max-h-screen max-w-screen flex flex-col">
+              <Navbar />
+
+              <Routes>
+                  <Route path="/" element={<HomePage />} />
+                  <Route path="/Projects" element={<ProjectsPage />} />
+              </Routes>
+          </div>
+      </Router>
   );
 }
 

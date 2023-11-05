@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       colors: {
         'csbg': '#1E1E1E',
-        'cstxt': '#ffffff',
         'csprim': '#3E6B48',
         'cssec': '#214E3A',
         'csacc': '#004d00',
