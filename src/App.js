@@ -13,7 +13,7 @@ import HomePage from "./pages/HomePage";
 function App() {
   return (
       <Router>
-          <div className="w-screen h-screen max-h-screen max-w-screen flex flex-col">
+          <div className="bg-csbg w-screen h-screen max-h-screen max-w-screen flex flex-col">
               <Navbar />
 
               <Routes>
