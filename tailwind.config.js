@@ -10,6 +10,12 @@ module.exports = {
         'csprim': '#3E6B48',
         'cssec': '#214E3A',
         'csacc': '#004d00',
+        'cstxt' : '#FFFFFF',
+      },
+      fontFamily: {
+        'bodytxt': ['OpenSansRegular'],
+        'titletxt': ['Brandon'],
+        'boldtitle': ['BrandonBold'],
       },
     },
   },

@@ -1,10 +1,13 @@
+@import 'font.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  color: #FFFFFF;
-  margin: 0;
+
+  @apply m-0 bg-csbg text-cstxt;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

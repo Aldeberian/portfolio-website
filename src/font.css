@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'BrandonBold';
+    src: url('./assets/fonts/BrandonGrotesque/HvDTrial_BrandonGrotesqueCond-Bold-BF64a627d8804fa.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brandon';
+    src: url('./assets/fonts/BrandonGrotesque/HvDTrial_BrandonGrotesqueCond-Regular-BF64a627d905063.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('./assets/fonts/OpenSans/static/OpenSans-Regular.ttf')  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
