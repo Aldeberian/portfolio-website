@@ -1,0 +1,8 @@
+.projtxt {
+    color: transparent;
+    position: relative;
+    z-index: -1;
+    -webkit-text-stroke : 1px theme('colors.csprim');
+    left: 35px;
+    top: 40px;
+}

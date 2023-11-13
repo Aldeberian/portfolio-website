@@ -16,6 +16,8 @@ module.exports = {
         'bodytxt': ['OpenSansRegular'],
         'titletxt': ['Brandon'],
         'boldtitle': ['BrandonBold'],
+        'rubikbody': ['RubikBody'],
+        'rubiktitle': ['RubikTitle'],
       },
     },
   },

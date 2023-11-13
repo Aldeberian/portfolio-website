@@ -16,3 +16,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'RubikTitle';
+    src: url('./assets/fonts/Rubik/static/Rubik-Medium.ttf')  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RubikBody';
+    src: url('./assets/fonts/Rubik/static/Rubik-Regular.ttf')  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
