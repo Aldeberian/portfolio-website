@@ -9,8 +9,8 @@ const Navbar = () => {
                 scrolled ? 'fixed top-0 z-50' : 'top-0 sticky'
             } rounded`}
         >
-            <a href="https://github.com/Aldeberian"><img src="/github_logo.png" alt="Github" className="hover:shadow-lg hover:shadow-pink-500/50 rounded-3xl h-10 font-bodytxt"/></a>
-            <a href="https://www.linkedin.com/in/ceiras/"><img src="/linkedin_logo.png" alt="LinkedIn" className="hover:shadow-lg hover:shadow-blue-500/50 h-10 font-bodytxt "/></a>
+            <a href="https://github.com/Aldeberian"><img src="/github_logo.png" alt="Github" className="hover:h-11 transition-all ease-in-out h-10 font-bodytxt"/></a>
+            <a href="https://www.linkedin.com/in/ceiras/"><img src="/linkedin_logo.png" alt="LinkedIn" className="hover:h-11 transition-all ease-in-out h-10 font-bodytxt "/></a>
         </div>
     );
 };

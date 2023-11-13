@@ -1,0 +1,8 @@
+.test2 {
+    color: transparent;
+    position: absolute;
+    z-index: -1;
+    -webkit-text-stroke : 1px theme('colors.csprim');
+    left: 200px;
+    top: 12px;
+}

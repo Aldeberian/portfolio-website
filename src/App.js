@@ -13,9 +13,7 @@ import HomePage from "./pages/HomePage";
 function App() {
   return (
       <Router>
-          <div className="bg-csbg w-screen h-screen max-h-screen max-w-screen flex flex-col">
-              <Navbar />
-
+          <div>
               <Routes>
                   <Route path="/" element={<HomePage />} />
                   <Route path="/Projects" element={<ProjectsPage />} />
