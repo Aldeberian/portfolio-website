@@ -16,6 +16,7 @@ const Projects = [
                 alt: "javascript logo",
             },
         ],
+        link: "https://github.com/Aldeberian/NodeMunch"
     },
     {
         title: "Discord Bot",
@@ -26,6 +27,7 @@ const Projects = [
                 alt: "html logo",
             },
         ],
+        link: "https://github.com/Aldeberian/EDTConverter",
     },
     {
         title: "Portfolio Website",
@@ -48,6 +50,7 @@ const Projects = [
                 alt: "react logo",
             },
         ],
+        link: "https://github.com/Aldeberian/portfolio-website",
     },
 ];
 
